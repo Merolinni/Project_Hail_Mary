@@ -1,0 +1,21 @@
+# Ignore large dataset CSV/GZ files
+data/*.csv
+data/*.gz
+data/TcgaTargetGtex_rsem_gene_tpm*
+data/TcgaTargetGTEX_phenotype*
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model Weights & Large Checkpoints
+*.pt
+*.pth
+
+# OS generated files
+.DS_Store
+Thumbs.db
