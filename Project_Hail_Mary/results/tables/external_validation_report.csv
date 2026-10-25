@@ -1,0 +1,4 @@
+Cohort,Samples,Genes,Recon MSE,Mean Pathway R2,Status
+TCGA-BRCA (Internal Discovery),1092,58581,0.6874,0.4389,Discovery Cohort
+METABRIC Validation Set,1980,48210,0.7012,0.4265,External Validation
+GSE96058 (GEO RNA-seq),3273,52100,0.7145,0.418,Independent Cohort

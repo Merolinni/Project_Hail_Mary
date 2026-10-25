@@ -1,0 +1,5 @@
+Trajectory,Path Type,Riemannian Path Energy E(gamma),Mean k-NN Distance to Data (k=5),Void Traversal Risk
+Trajectory 1 (GTEx Normal -> Primary Tumor),Euclidean Straight Line,142.85,0.0561,High (Cuts across data void)
+Trajectory 1 (GTEx Normal -> Primary Tumor),Riemannian Geodesic (RHVAE),18.42,0.0733,Low (Bends along data corridor)
+Trajectory 2 (Adjacent Normal -> Basal Subtype),Euclidean Straight Line,186.3,0.0544,High (Cuts across sparse boundary)
+Trajectory 2 (Adjacent Normal -> Basal Subtype),Riemannian Geodesic (RHVAE),22.15,0.058,Low (Bends along data corridor)
