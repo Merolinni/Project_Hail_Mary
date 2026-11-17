@@ -55,11 +55,14 @@ def run_single_gene_trajectories():
     axes[1, 1].grid(True, linestyle='--', alpha=0.5)
     axes[1, 1].legend(loc='lower left')
 
+
     plt.tight_layout()
     output_plot = "single_gene_trajectories_rhvae.png"
     plt.savefig(output_plot, dpi=300)
     plt.close()
     print(f"Saved single gene trajectory plot to '{output_plot}'.")
 
+
 if __name__ == '__main__':
     run_single_gene_trajectories()
+    

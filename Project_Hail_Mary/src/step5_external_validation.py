@@ -28,6 +28,7 @@ def run_external_validation():
         }
     ]
 
+
     df_val = pd.DataFrame(validation_data)
     output_csv = "external_validation_report.csv"
     df_val.to_csv(output_csv, index=False)

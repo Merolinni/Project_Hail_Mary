@@ -173,5 +173,6 @@ def run_phase5_geodesics(rhvae_coords_file="results/tables/rhvae_latent_coordina
     plt.close()
     print(f"--> Phase 5 Complete! Trajectory plot saved to '{output_plot}'.")
 
+
 if __name__ == '__main__':
     run_phase5_geodesics()

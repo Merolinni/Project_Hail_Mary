@@ -154,6 +154,7 @@ def run_hyperparameter_sweeps(expr_file="data/breast_cancer_genes_x_samples.csv"
                 loss.backward()
                 optimizer.step()
 
+
         model.eval()
         eval_loader = DataLoader(dataset, batch_size=64, shuffle=False)
         all_mu, all_recons, all_samples = [], [], []
@@ -230,6 +231,7 @@ def run_hyperparameter_sweeps(expr_file="data/breast_cancer_genes_x_samples.csv"
     df_cen = pd.DataFrame(centroid_results)
     df_cen.to_csv("results/tables/rhvae_centroid_sweep_results.csv", index=False)
     print("\n--> Phase 4 Sweeps Complete! Saved sweep matrices to 'results/tables/'.")
+
 
 if __name__ == '__main__':
     run_hyperparameter_sweeps()

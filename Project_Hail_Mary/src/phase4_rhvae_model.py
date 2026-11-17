@@ -200,5 +200,6 @@ def run_phase4_rhvae(expr_file="data/breast_cancer_genes_x_samples.csv",
     torch.save(model.state_dict(), "results/tables/rhvae_model.pt")
     print("--> Phase 4 Complete! RHVAE model and checkpoint artifacts exported.")
 
+
 if __name__ == '__main__':
     run_phase4_rhvae()

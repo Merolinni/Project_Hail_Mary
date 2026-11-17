@@ -5,7 +5,7 @@ import seaborn as sns
 
 def run_multi_pathway_heatmap():
     t_vals = np.linspace(0.0, 1.0, 50)
-    
+
     pathways = [
         'HALLMARK_HYPOXIA',
         'HALLMARK_GLYCOLYSIS',
@@ -40,10 +40,12 @@ def run_multi_pathway_heatmap():
     plt.ylabel("MSigDB Hallmark Pathway", fontsize=11)
     plt.tight_layout()
 
+
     output_plot = "multi_pathway_coevolution_heatmap.png"
     plt.savefig(output_plot, dpi=300)
     plt.close()
     print(f"Saved multi-pathway heatmap to '{output_plot}'.")
+
 
 if __name__ == '__main__':
     run_multi_pathway_heatmap()

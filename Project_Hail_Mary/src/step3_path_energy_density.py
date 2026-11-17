@@ -39,5 +39,6 @@ def run_path_energy_density():
     print(f"Saved Path Energy & Density Summary to '{output_csv}'.")
     print(df_summary.to_string(index=False))
 
+
 if __name__ == '__main__':
     run_path_energy_density()
